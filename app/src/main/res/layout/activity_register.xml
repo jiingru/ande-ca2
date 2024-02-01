@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/register"
-        android:textSize="25sp"/>
+        android:textSize="30sp"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,22 +47,11 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SignUp"
+        android:text="Sign Up"
         android:backgroundTint="#93CDD5"
         android:textColor="@color/black"/>
-
-    <TextView
-        android:id="@+id/signUpTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sign_up"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="16sp"
-        android:gravity="center"
-        android:clickable="true"
-        android:onClick="onSignUpClicked" />
 
 </LinearLayout>
